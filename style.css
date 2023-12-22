@@ -79,6 +79,14 @@ body {
     line-height: 50%;
 }
 
+.categ h2 {
+    padding-top: 50px;
+}
+
+.categ p{
+    padding-bottom: 50px;
+}
+
 .categ-gallery {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -98,6 +106,8 @@ body {
     height: 250px;
     margin: 10px;
     align-items: center;
+    border: .5px solid lightgrey;
+    border-radius: 5px;
 }
 
 .hp, .tv, .rc, .mi{
@@ -126,6 +136,14 @@ body {
 .prod-szov {
     text-align: center;
     line-height: 50%;
+}
+
+.prod-szov h2{
+    padding-top: 70px;
+}
+
+.prod-szov p {
+padding-bottom: 50px;
 }
 
 .load {
@@ -184,3 +202,8 @@ body {
     margin-bottom: 20px;
     background-color: transparent;
   }
+
+.termeknev {
+    font-weight: bold;
+    line-height: 50%;
+}
