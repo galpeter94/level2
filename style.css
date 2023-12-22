@@ -21,8 +21,33 @@ body {
     /* padding-bottom: 100px; */
 }
 
+.upper-btn {
+    display:grid;
+    grid-template-columns: 170px 170px;
+    padding-bottom: 20px;
+}
+
 .nev {
     font-size: larger;
+}
+
+.main_blokk {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    align-items: center;
+}
+
+.main_blokk h1{
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.fuleskep img{
+    width: 400px;
+    height: 400px;
+    margin: auto;
 }
 
 .btn {
@@ -44,3 +69,99 @@ body {
     background-color: black;
     color: white;
 }
+
+.categ {
+    margin: auto;
+    text-align: center;
+}
+
+.categ h2, .categ p {
+    line-height: 50%;
+}
+
+.categ-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.products {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.hp, .tv, .rc, .mi{
+    display: block;
+    
+    height: 125px;
+    width: 225px;
+    object-fit:fill;
+    background-size: cover;
+    align-items: center;
+    margin: auto;
+    border: 2px solid lightcoral;
+    border-radius: 10px;
+    text-align:center;
+    margin: 10px;
+}
+
+.categ-gallery img {
+    height: 80px;
+    }
+
+.categ-gallery p{
+    font-weight: bold;
+}
+
+.prod-szov {
+    text-align: center;
+    line-height: 50%;
+}
+
+/* .hp {
+    background-image: url(pics/pic.png);
+    vertical-align: top;
+}
+
+.tv {
+    background-image: url(pics/pic.png);
+
+}
+
+.rc {
+    background-image: url(pics/pic.png);
+    width: 225px;
+
+}
+
+.mi{
+    background-image: url(pics/pic.png);
+    width: 225px;
+
+} */
+
+
+.dot1, .dot2, .dot3 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot1 {
+    background-color: orangered;
+  }
+
+  .dot2 {
+    background-color: cyan;
+  }
+  .dot3 {
+    background-color: purple;
+  }
+
+  .avail {
+
+    align-items: center;
+  }
