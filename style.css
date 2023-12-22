@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.nav {
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 4fr repeat(5, 1fr);
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 15pt;
+    /* padding-bottom: 100px; */
+}
+
+.nev {
+    font-size: larger;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
