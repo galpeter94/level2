@@ -207,3 +207,10 @@ padding-bottom: 50px;
     font-weight: bold;
     line-height: 50%;
 }
+
+@media (max-width: 650px) {
+    .nav, .main_blokk, .categ-gallery, .products{
+        grid-template-columns: 1fr;
+        padding: 30px;
+  }
+}
